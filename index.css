@@ -1,0 +1,414 @@
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: x-small;
+    display: flex;
+    margin-left: 60px;
+}
+.t1{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+.material-icons{
+    margin-top: 8px;
+    background-color: rgb(52, 4, 97);
+    background-position: center;
+    
+}
+.contact{
+    font-family:   Arial, sans-serif;
+    font-size:11px;
+    margin-left: 210px;
+    transform-origin: right;
+    display: flex;
+    border-right: 20px;
+    border-width: medium;
+    border-color: royalblue;
+}
+.contact1{
+    float: right;
+ 
+}
+.title{
+    color: rgb(218, 42, 42);
+}
+.dropdown{
+    display: list-item;
+    background-color: rgb(165, 42, 42);
+    font-size:16px;
+    text-align: left;
+}
+.menulist{
+    display: list-item;
+}
+nav ul li{
+    background-color:rgb(165, 42, 42) ;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+nav ul li a{
+    display: block;
+    padding: 0 px;
+    color: white;
+}
+nav ul ul{
+    position: absolute;
+    top: 23px;
+    padding-left: 0px;
+    display: none;
+}
+nav ul ul ul{
+    padding-left: 180px;
+    padding-bottom: 100px;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul ul li{
+    width: 250px;
+    color: rgb(0, 18, 99);
+    position: relative;
+    cursor: pointer;
+    top: -20px;
+}
+nav ul ul li{
+    width: 180px;
+    padding-top: 12px;
+}
+nav ul li ul li a{
+    background-color: rgb(246, 247, 245);
+    color: rgb(0, 18, 99);
+    text-align: left;
+}
+nav ul li ul li{
+    padding: auto;
+    background-color: white;
+}
+.menu{
+    display: none;
+}
+.button2{
+    display: flex;
+    color: white;
+    font-size: large;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.b1{
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: rgb(187, 187, 11); 
+}
+.b2{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+}
+.b3{
+    padding: 10px 20px 10px 20px;
+    background-color: skyblue;
+    text-align: center;
+}
+.b4{
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(235, 174, 6);
+}
+.b5{
+    padding: 10px 62px 10px 61.7px;
+    background-color: rgb(17, 146, 17);
+    text-align: center;
+}
+.b6{
+    background-color: rgb(243, 44, 44);
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+.ass{
+    background-color: rgb(6, 6, 95);
+    padding: 10px 18px 10px 10px;
+    margin-left: 10px;
+    position: relative;
+    margin-right: 0px;
+    color: white;
+    font-size: large;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.an{
+    display: flex;
+}
+.marq{
+    color: rgb(17, 0, 0);
+    float: left;
+    margin-top: 16px;
+    font-size: larger;
+}
+.marq:hover{
+    color: brown;
+    cursor: pointer;
+}
+.wel{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:rgb(116, 19, 19);
+    text-decoration-thickness: 2px;
+}
+.paper{
+    display: flex;
+}
+body {
+    background:#dfe6e9;
+ }
+ .paper-shadow {
+    position: relative;
+   background: #fff;
+   width: 50%;
+   margin: 100px 0px 10px 0px auto;
+   box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+   height: 650px;
+ }
+ .paper-shadow:after, .paper-shadow:before{
+   content: '';
+   position: absolute;
+   left: auto;
+   background:none;
+   z-index: -1;
+ }
+ .paper-shadow:after{
+   width: 90%;
+   height: 10px;
+   top: 30px;
+   right:8px;
+   -webkit-transform: rotate(-3deg);
+   -moz-transform: rotate(-3deg);
+   -o-transform: rotate(-3deg);
+   -ms-transform: rotate(-3deg);
+   transform: rotate(-3deg);
+   -webkit-box-shadow: 0px -20px 36px 5px #295d92;
+   -moz-box-shadow: 0px -20px 36px 5px #295d92;
+   box-shadow: 0px -25px 35px 0px rgba(0,0,0,0.5);
+ }
+ 
+ .paper-shadow:before{
+   width: 10px;
+   height: 95%;
+   top: 5px;
+   right:18px;
+   -webkit-transform: rotate(3deg);
+   -moz-transform: rotate(3deg);
+   -o-transform: rotate(3deg);
+   -ms-transform: rotate(3deg);
+   transform: rotate(3deg);
+   -webkit-box-shadow: 20px 0px 25px 5px #295d92;
+   -moz-box-shadow: 20px 0px 25px 5px #295d92;
+   box-shadow: 22px 0px 35px 0px rgba(0,0,0,0.5);
+ }
+ .ilink{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:rgb(116, 19, 19);
+    text-decoration-thickness: 2px;
+    margin-top: 50px;
+ }
+ .int{
+     width: 100%;
+     display: flex;
+     
+ }
+ .ill{
+    display: flex;
+
+ }
+ .mron1{
+    background-color: rgb(88, 95, 95);
+    padding: 10px 40px 10px 40px;
+}
+.mron1:hover{
+    background-color: brown;
+}
+ .il{
+     display: flex;
+     font-size:20px;
+     font-style: normal;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+ }
+ .mron{
+     background-color: rgb(88, 95, 95);
+     padding: 10px 74px 10px 74px;
+ }
+ .mron:hover{
+     background-color: brown;
+ }
+ .white{
+     padding-left: -50px;
+     padding-right: -50px;
+ }
+ .a{
+     font-size: x-large;
+     display: flex;
+ }
+ button{
+     font-size: large;
+     align-items: center;
+     align-content: center;
+     background-color: white;
+     color: red;
+     border-color: red;
+     margin: 0px 0px 0px 730px;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ .btn1 button{
+    font-size: medium;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    color: red;
+    border-color: red;
+    margin: 0px 0px 0px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gallery button{
+    align-content: right;
+}
+.linky{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+.disc{
+    font-size: smaller;
+    padding: 1px 20px 1px 20px;
+    color: white;
+    background-color: rgb(24, 46, 75);
+}
+.social{
+    margin: 230px 0px 30px 100px;
+}
+.social1{
+    margin: 50px 0px 200px 120px;
+
+}
+.last{
+    display: flex;
+}
+.last h1{
+    margin: 150px 0px 30px 100px;
+    font-size:large;
+}
+.last ol{
+    cursor: pointer;
+    padding-top: 2%;
+    text-decoration: rgb(0, 19, 19);
+    text-decoration: underline;
+    
+
+}
+.last p {
+    float: right;
+}
+@media only screen and (max-width:700px){
+    .bod{
+        width: 100%;
+    }
+    .t1,.titl, .title{
+        font-size: small;
+    }
+    .titl{
+        display: list-item;
+    }
+    .button2 {
+        display: list-item;
+    }
+    .last{
+        display: list-item;
+        padding-top: 0px;
+    }
+    .disc{
+        margin-top: 250px;
+    }
+    .uad{
+        margin-right:50px ;
+    }
+    .linky{
+        display: list-item;
+        width: 50%;
+        margin-left: 80px;
+    }
+    .il{
+        display: list-item;
+    }
+    .a{
+        display: list-item;
+        ruby-align: center;
+    }
+    .a img{
+        width: 100%;
+        align-content: center;
+    }
+    .paper{
+        margin-top: 50px;
+        display: list-item;
+    }
+    .ill{
+        display: list-item;
+        width: 100%;
+    }
+    .ilink{
+        width: 100%;
+        margin-right: 50px;
+    }
+    .int{
+        display: list-item;
+    }
+    .ilink{
+        font-size: small;
+    }
+    .t1, .titl{
+        font-size: x-small;
+        display: list-item;
+    }
+    .wel{
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .cont{
+        display: none;
+    }
+    .paper-shadow {
+        height: 400px;
+        width: 100%;
+    }
+    .an{
+        display: inline-table;
+    }
+    .menu{
+        display: block;
+    }
+    .dropdown{
+        display: list-item;
+    }
+    #menulist{
+        display: list-item;
+    }
+    nav ul li{
+        display: block;
+        padding-right: -50px;
+    }
+    nav ul li:hover > ul{
+        display: none;
+    }
+    nav ul li ul li{
+        transform: rotate(180);
+    }
+    .cross{
+        float: right;
+        background-color: brown;
+        padding-top: 10px;
+        cursor: pointer;
+        padding-right: 20px;
+    }
+}
